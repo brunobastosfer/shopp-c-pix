@@ -1,7 +1,7 @@
 require('dotenv').config({ path: '../.env.homologacao' })
 const { v4 } = require('uuid')
 const { GoogleSpreadsheet } = require('google-spreadsheet')
-const credenciais = require('../../credenciais.json')
+const credenciais = require('../credenciais.json')
 
 const doc = new GoogleSpreadsheet(
   '1wOocbNaqaXVthPLyhw63jOWOcnyHSmHrB3od3QwQ_4o'
