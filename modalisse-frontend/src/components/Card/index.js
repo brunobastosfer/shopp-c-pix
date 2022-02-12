@@ -2,7 +2,11 @@ import { MdOutlineAddShoppingCart } from 'react-icons/md'
 
 import { CardItems } from './styles'
 
+import { useCart } from '../../context/CartContext'
+
 export function Card({ product }) {
+  const cart = useCart()
+
   const addItem = (product) => () => {
     cart.addToCart(product)
   }

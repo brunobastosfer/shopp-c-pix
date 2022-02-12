@@ -5,5 +5,3 @@ export const Container = styled.section`
 `
 
 export const MainContent = styled.main``
-
-export const Resume = styled.section``
